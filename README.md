@@ -1,10 +1,10 @@
-# 🌳 Mini Projet : Arbres de Décision
+# Mini Projet : Arbres de Décision
 
-## 📋 Description
+## Description
 
 Ce projet explore les **arbres de décision** en machine learning, de la théorie à l'implémentation pratique. Il couvre les concepts fondamentaux, l'implémentation from scratch, les extensions (Random Forest, Gradient Boosting), et une application sur un dataset réel.
 
-## 📁 Structure du Projet
+## Structure du Projet
 
 ```
 ├── Projet_Arbres_Decision.ipynb    # Notebook principal avec tout le code
@@ -13,7 +13,7 @@ Ce projet explore les **arbres de décision** en machine learning, de la théori
 └── README.md                       # Ce fichier
 ```
 
-## 🎯 Objectifs du Projet
+## Objectifs du Projet
 
 1. **Partie Théorique** : Comprendre les fondements mathématiques des arbres de décision
    - Mesures d'impureté (Gini, Entropie, Erreur de classification)
@@ -35,7 +35,7 @@ Ce projet explore les **arbres de décision** en machine learning, de la théori
    - Entraînement et évaluation
    - Analyse des résultats
 
-## 🛠️ Technologies Utilisées
+##  Technologies Utilisées
 
 - **Python 3.x**
 - **NumPy** : Calculs numériques
@@ -43,7 +43,7 @@ Ce projet explore les **arbres de décision** en machine learning, de la théori
 - **Matplotlib** : Visualisations
 - **Scikit-learn** : Comparaison avec implémentations standards
 
-## 🚀 Utilisation
+## Utilisation
 
 1. Cloner le repository :
 ```bash
@@ -60,18 +60,18 @@ pip install numpy pandas matplotlib scikit-learn jupyter
 jupyter notebook Projet_Arbres_Decision.ipynb
 ```
 
-## 📊 Résultats Clés
+## Résultats Clés
 
 - Implémentation fonctionnelle d'un arbre de décision from scratch
 - Comparaison des mesures d'impureté (Gini vs Entropie)
 - Analyse des performances sur le dataset Iris
 - Démonstration des avantages des méthodes d'ensemble
 
-## 👤 Auteur
+## Auteur
 
-**Soukaina Nid Lahsen**
+**Soukaina NidLahsen**
 
-## 📄 Licence
+##  Licence
 
 Ce projet est réalisé dans un cadre académique.
 
