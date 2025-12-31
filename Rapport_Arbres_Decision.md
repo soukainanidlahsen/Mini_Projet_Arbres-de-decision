@@ -1,12 +1,12 @@
-# 📊 Rapport de Projet : Arbres de Décision, Extensions et Applications
+# Rapport de Projet : Arbres de Décision, Extensions et Applications
 
 **Année universitaire :** 2024-2025  
 **Auteur :** Projet Data Mining  
-**Date :** 31 Décembre 2024
+**Date :** 31 Décembre 2025
 
 ---
 
-## 📋 Table des Matières
+## Table des Matières
 
 1. [Introduction](#introduction)
 2. [Technologies Utilisées](#technologies-utilisées)
@@ -321,9 +321,9 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 **Observations :**
 
-1. ⬆️ Quand `max_depth` augmente → Précision train augmente (jusqu'à 100%)
-2. ⬇️ La précision test peut diminuer après un certain seuil
-3. 📊 Un grand écart entre train et test = **SUR-APPRENTISSAGE**
+1. Quand `max_depth` augmente → Précision train augmente (jusqu'à 100%)
+2. La précision test peut diminuer après un certain seuil
+3. Un grand écart entre train et test = **SUR-APPRENTISSAGE**
 
 **Causes :**
 - L'arbre "mémorise" les données d'entraînement
@@ -351,10 +351,10 @@ Random Forest combine plusieurs arbres de décision avec :
 | 200 | ~1.00 | ~0.96 | ~0.97 |
 
 **Avantages :**
-- ✅ Réduction du sur-apprentissage
-- ✅ Meilleure généralisation
-- ✅ Robuste aux outliers
-- ✅ Estimation de l'importance des variables
+- Réduction du sur-apprentissage
+- Meilleure généralisation
+- Robuste aux outliers
+- Estimation de l'importance des variables
 
 ### 3.6 AdaBoost (Optionnel)
 
@@ -450,7 +450,7 @@ Réel Maligne   XX      XX    (Vrais Négatifs / Faux Positifs)
      Bénigne   XX      XX    (Faux Négatifs / Vrais Positifs)
 ```
 
-> ⚠️ **Attention** : Les faux négatifs (malignes classées bénignes) sont particulièrement dangereux en contexte médical !
+> **Attention** : Les faux négatifs (malignes classées bénignes) sont particulièrement dangereux en contexte médical !
 
 ### 4.7 Discussion
 
@@ -473,10 +473,10 @@ Réel Maligne   XX      XX    (Vrais Négatifs / Faux Positifs)
 
 #### Recommandations pour l'Usage Médical
 
-- ✅ Utiliser l'arbre comme **outil d'aide** au diagnostic, pas de remplacement
-- ✅ Toujours **confirmer** avec l'expertise médicale
-- ✅ **Actualiser** régulièrement le modèle avec de nouvelles données
-- ✅ Porter une attention particulière aux **faux négatifs**
+-  Utiliser l'arbre comme **outil d'aide** au diagnostic, pas de remplacement
+- Toujours **confirmer** avec l'expertise médicale
+- **Actualiser** régulièrement le modèle avec de nouvelles données
+-  Porter une attention particulière aux **faux négatifs**
 
 ---
 
@@ -505,11 +505,11 @@ Ce projet a permis de maîtriser les aspects suivants :
 
 ### Perspectives d'Amélioration
 
-- 🔄 Validation croisée (k-fold) pour une évaluation plus robuste
-- 🎯 Optimisation des hyperparamètres (GridSearchCV)
-- 📊 Analyse des courbes ROC et AUC
-- 🔍 Techniques d'explicabilité avancées (SHAP, LIME)
-- 🧪 Test sur d'autres datasets médicaux
+-  Validation croisée (k-fold) pour une évaluation plus robuste
+- Optimisation des hyperparamètres (GridSearchCV)
+- Analyse des courbes ROC et AUC
+- Techniques d'explicabilité avancées (SHAP, LIME)
+-  Test sur d'autres datasets médicaux
 
 ---
 
@@ -518,17 +518,17 @@ Ce projet a permis de maîtriser les aspects suivants :
 ```
 Projet_Arbres_Decision.ipynb
 │
-├── 📦 Imports et Configuration
+├──  Imports et Configuration
 │   └── numpy, pandas, matplotlib, sklearn
 │
-├── 📖 Partie 1 : Concepts Théoriques
+├── Partie 1 : Concepts Théoriques
 │   ├── Définitions markdown
 │   ├── gini()
 │   ├── entropy()
 │   ├── classification_error()
 │   └── Visualisation des courbes d'impureté
 │
-├── 🔧 Partie 2 : Implementation From Scratch
+├──  Partie 2 : Implementation From Scratch
 │   ├── Dataset crédit simplifié
 │   ├── class Node
 │   ├── get_class_counts()
@@ -538,7 +538,7 @@ Projet_Arbres_Decision.ipynb
 │   ├── print_tree()
 │   └── Comparaison sklearn
 │
-├── 📈 Partie 3 : Extensions
+├──  Partie 3 : Extensions
 │   ├── Chargement Breast Cancer
 │   ├── Train/Test split
 │   ├── Analyse profondeur
@@ -546,7 +546,7 @@ Projet_Arbres_Decision.ipynb
 │   ├── Random Forest
 │   └── AdaBoost
 │
-└── 🏥 Partie 4 : Application Métier
+└──  Partie 4 : Application Métier
     ├── Contexte médical
     ├── Modèle final
     ├── Règles de décision
